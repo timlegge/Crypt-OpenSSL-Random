@@ -37,6 +37,8 @@ jobs:
           install: >-
             base-devel
             gcc
+            libopenssl
+            openssl-devel
             perl
       - name: perl -V
         run: |
