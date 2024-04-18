@@ -44,7 +44,7 @@ jobs:
           uname -a
       - name: Install Dependencies
         run: |
-          curl -Uri https://cpanmin.us/ | perl - -nq --with-develop --installdeps -v .
+          curl -Uri https://cpanmin.us/ | perl - -nq Crypt::OpenSSL::Guess
       - name: Build Module
         run: |
           perl Makefile.PL
