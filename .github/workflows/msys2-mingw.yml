@@ -40,6 +40,7 @@ jobs:
             libopenssl
             openssl-devel
             perl
+            perl-devel
       - name: perl -V
         run: |
           perl -V
